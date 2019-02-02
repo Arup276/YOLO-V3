@@ -27,8 +27,8 @@ And notice that after dowload file format should be this
 
 ![format](https://user-images.githubusercontent.com/32811517/52165263-4d423000-2724-11e9-8f00-62dd00d120af.PNG)
 ## In this case after extracting you will see a ```bin``` folder you have to go their  `D:\YOLO-V3\bin` this ``` bin``` folder and extract the zip file(to get the full weights).
-![weight_ext](![modi_weight](https://user-images.githubusercontent.com/32811517/52167393-5b05ae80-2740-11e9-93d6-5e6339b4243c.PNG)
-)
+![modi_weight](https://user-images.githubusercontent.com/32811517/52167393-5b05ae80-2740-11e9-93d6-5e6339b4243c.PNG)
+
 (like shown in image just extract that)
 
 ### Case-2:
