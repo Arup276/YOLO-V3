@@ -22,7 +22,7 @@ This madole is trained on 4 classes : car,Medicine,Weapon,Enwmies.
 # Step-1: 
 ### Download:
 ###         case-1:
-Download the zip of [this](https://github.com/Arup276/Mini_Works/edit/master/YOLO-V3) repo and extract it.
+Download the zip of [this](https://github.com/Arup276/YOLO-V3.git) repo and extract it.
 And notice that after dowload file format should be this 
 
 ![format](https://user-images.githubusercontent.com/32811517/52165263-4d423000-2724-11e9-8f00-62dd00d120af.PNG)
