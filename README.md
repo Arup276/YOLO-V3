@@ -1,4 +1,4 @@
-# YOLO-V3
+# YOLO-V3 for Windows
 # What is YOLO-V3?
 YOLO ,or You Only Look Once is a object detion algoritham. iT's the most accurate real time object detection algorithm.
 If want to more about YOLO-V3 then you check [here](https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b).
@@ -31,6 +31,11 @@ And notice that after dowload file format should be this
 
 (like shown in image just extract that)
 
+
+### Note
+After that go to: ```data``` folder and extract ```lebels.zip``` . 
+
+
 ### Case-2:
 Or you can download all the file from my google drive [here](https://drive.google.com/drive/u/3/folders/1JWjKtp9UXEFNrJBBVZKEG3_UOhRRTyrj)
 
@@ -44,6 +49,8 @@ Ok so next move on to step-2.
 ### Download OpenCV from [here](https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.3.0/opencv-3.3.0-vc14.exe/download)
 ### automatically downlaod will start .
 now guys here little thing to do
+
+
 # 1.
 Go to ```C:\``` if you see any version of openCV then remane it to some thing else or delete it (easy one😁).
 # 2.
@@ -55,6 +62,11 @@ After extracting if openCV has name some thing else rather than this imagen one 
 ![opencv](https://user-images.githubusercontent.com/32811517/52165602-ef641700-2728-11e9-9699-22e945a44a9e.PNG)
 
 # Step-3:
+
+After step-2 go to : ```C:\opencv_3.0\opencv\build\x64\vc14\bin```  this path ,copy it and add this path to your Environment Variables. If you don't do step-4 you will get an error ```opencv_world330d.dll was not found``` something like that so do it.
+
+
+# Step-4:
 Open ```cmd``` under YOLO-V3 folder and run this command :```darknet_no_gpu.exe detect cfg/yolov3_tiny_pubg.cfg bin/yolov3_tiny_pubg_2000.weights data/pubgcar.jpg```
 if you follow the above steps then it should work and it will pop up a predicted image.
 Congrats you successfully run YOLO-V3.
